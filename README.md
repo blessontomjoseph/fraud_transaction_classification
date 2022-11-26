@@ -7,4 +7,3 @@ k nearest neighbors
 random forest classifier are stacked
 cgboost classifier used on top of the stacked model
 
-[:parrot_hd:]  

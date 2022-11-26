@@ -61,17 +61,16 @@ def train_fold(fold, hyper_params):
     return metrics.recall_score(valy, preds)
 
 
-
-
 def train_log(recall):
-    wandb.log({'recall':recall})
-    
+    wandb.log({'recall': recall})
+
+
 def train(config=None):
     with wandb.init(config=config):
-        config=wandb.config
+        config = wandb.config
         recalls = []
         for fold in range(c.num_folds):
-            recall = train_fold(fold,config)
+            recall = train_fold(fold, config)
             recalls.append(recall)
         train_log(np.mean(recalls))
 
@@ -97,8 +96,3 @@ if __name__ == "__main__":
     sweep_config['parameters'] = parameters_dict
     sweep_id = wandb.sweep(sweep_config, project="stack")
     wandb.agent(sweep_id, train, count=5)
-    
-    
-    
-    
-
