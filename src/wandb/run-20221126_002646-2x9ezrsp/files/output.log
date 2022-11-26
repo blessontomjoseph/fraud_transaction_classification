@@ -1,0 +1,5 @@
+[32m[I 2022-11-26 00:26:52,472][39m Trial 0 finished with value: 0.9239042392225386 and parameters: {'n_neighbors': 29, 'weights': 'distance', 'algorithm': 'ball_tree', 'p': 1}. Best is trial 0 with value: 0.9239042392225386.
+[32m[I 2022-11-26 00:26:56,342][39m Trial 1 finished with value: 0.9074667340794704 and parameters: {'n_neighbors': 41, 'weights': 'distance', 'algorithm': 'kd_tree', 'p': 1}. Best is trial 0 with value: 0.9239042392225386.
+[32m[I 2022-11-26 00:27:05,994][39m Trial 2 finished with value: 0.9179375388741814 and parameters: {'n_neighbors': 38, 'weights': 'distance', 'algorithm': 'ball_tree', 'p': 2}. Best is trial 0 with value: 0.9239042392225386.
+          score:[0.9239042392225386]
+          params:{'n_neighbors': 29, 'weights': 'distance', 'algorithm': 'ball_tree', 'p': 1}

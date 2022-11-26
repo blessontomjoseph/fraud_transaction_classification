@@ -1,0 +1,33 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.3
+    framework: xgboost
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    python_version: 3.8.13
+    start_time: 1669399881.191951
+    t:
+      1:
+      - 1
+      - 5
+      - 6
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 6
+      - 53
+      - 55
+      3:
+      - 2
+      - 23
+      4: 3.8.13
+      5: 0.13.3
+      8:
+      - 1
+      - 2
+      - 5

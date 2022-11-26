@@ -1,0 +1,44 @@
+[32m[I 2022-11-25 17:41:31,146][39m A new study created in memory with name: no-name-7aeb56bf-f3af-4bc3-94d3-1fecc002caf8
+/var/folders/th/m78zdlwx5fb59574g4xwz9p40000gp/T/ipykernel_14312/1421075052.py:26: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  'C':trial.suggest_uniform('C',0,1),
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[32m[I 2022-11-25 17:41:35,726][39m Trial 0 finished with value: 0.8876445526475958 and parameters: {'penalty': 'l2', 'C': 0.5001850951688137, 'solver': 'saga', 'class_weight': 'balanced'}. Best is trial 0 with value: 0.8876445526475958.
+/var/folders/th/m78zdlwx5fb59574g4xwz9p40000gp/T/ipykernel_14312/1421075052.py:26: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  'C':trial.suggest_uniform('C',0,1),
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[32m[I 2022-11-25 17:41:39,666][39m Trial 1 finished with value: 0.8635423006695071 and parameters: {'penalty': 'l2', 'C': 0.4682980914499717, 'solver': 'saga', 'class_weight': None}. Best is trial 0 with value: 0.8876445526475958.
+/var/folders/th/m78zdlwx5fb59574g4xwz9p40000gp/T/ipykernel_14312/1421075052.py:26: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  'C':trial.suggest_uniform('C',0,1),
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:352: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[32m[I 2022-11-25 17:41:43,425][39m Trial 2 finished with value: 0.8635423006695071 and parameters: {'penalty': 'l2', 'C': 0.11214213392109362, 'solver': 'saga', 'class_weight': None}. Best is trial 0 with value: 0.8876445526475958.
+0.888
+The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload
+/Users/home2/.conda/envs/py38/lib/python3.8/site-packages/xgboost/compat.py:36: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.

@@ -1,0 +1,43 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.3
+    framework: sklearn
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    python_version: 3.8.13
+    start_time: 1669402606.318279
+    t:
+      1:
+      - 5
+      - 35
+      - 53
+      - 55
+      2:
+      - 5
+      - 35
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      - 24
+      4: 3.8.13
+      5: 0.13.3
+      8:
+      - 2
+      - 5
+algorithm:
+  desc: null
+  value: ball_tree
+n_neighbors:
+  desc: null
+  value: 29
+p:
+  desc: null
+  value: 1
+weights:
+  desc: null
+  value: distance

@@ -58,18 +58,19 @@ def train_fold(fold, hyper_params):
 
 
 def objective(trial):
-    
+
     params_xgb = {
         'n_estimators': trial.suggest_int('n_estimators_xg', 1, 100, 2, log=False),
         'max_depth': trial.suggest_int('max_depth_xg', 1, 20, 1, log=False),
-        'learning_rate': trial.suggest_loguniform('learning_rate_xg', 0.001, 1.0),
-        'reg_lambda': trial.suggest_loguniform('reg_lambda_xg', 1e-9, 5),
         'max_leaves': trial.suggest_int('max_leaves_xg', 1, 20, 2, log=False),
         'booster': trial.suggest_categorical('booster_xg', ['gbtree', 'gblinear', 'dart']),
-        'subsample': trial.suggest_uniform('subsample_xg', 0.1, 1.0),
         'sampling_method': trial.suggest_categorical('sampling_method_xg', ['uniform']),
+        'grow_policy': trial.suggest_categorical('grow_policy_xg', ['depthwise', 'lossguide']),
+
+        'learning_rate': trial.suggest_loguniform('learning_rate_xg', 0.001, 1.0),
+        'reg_lambda': trial.suggest_loguniform('reg_lambda_xg', 1e-9, 5),
+        'subsample': trial.suggest_uniform('subsample_xg', 0.1, 1.0),
         'colsample_bytree': trial.suggest_uniform('colsample_bytree_xg', 0.1, 1.0),
-        'grow_policy': trial.suggest_categorical('grow_policy_xg', ['depthwise', 'lossguide'])
     }
 
     recalls = []
