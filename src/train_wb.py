@@ -81,18 +81,56 @@ if __name__ == "__main__":
     sweep_config = {'method': 'random'}
     metric = {'name': 'recall', 'goal': 'maximize'}
     sweep_config['metric'] = metric
+    sweep_config['target']=0.95
     parameters_dict = {
-        'n_estimators': {'values': [10, 20, 50, 70, 100]},
-        'max_depth': {'values': [2, 4, 6, 10, 12, 15, 20]},
-        'learning_rate': {'values': [1e-4, 1e-3, 1e-2]},
-        'reg_lambda': {'values': [1e-9, 1e-8, 1e-7, 1e-5, 1e-2]},
-        'max_leaves': {'values': [2, 4, 6, 10, 12, 15, 20]},
+        
+        'n_estimators': {
+            'distribution': 'int_uniform',
+            'min':10,
+            'max':100,
+                        },
+        
+        'max_depth': {
+            'distribution':'int_uniform',
+            'min':0,
+            'max':20,
+                      },
+        
+        'max_leaves': {
+            'distribution':'int_uniform',
+            'min':0,
+            'max':20,
+                       },
+        
         'booster': {'values': ['gbtree', 'gblinear', 'dart']},
-        'subsample': {'values': [0.1, 0.3, 0.5, 0.8]},
         'sampling_method': {'values': ['uniform']},
-        'colsample_bytree': {'values': [0.1, 0.3, 0.5, 0.8]},
-        'grow_policy': {'values': ['depthwise', 'lossguide']}
+        'grow_policy': {'values': ['depthwise', 'lossguide']},
+        
+        'learning_rate': {
+            'distribution': 'q_log_uniform',
+            'min':0,
+            'max':0.1,
+                },
+        
+        'reg_lambda': {
+            'distribution':'q_log_uniform',
+            'min':0,
+            'max':5,
+                },
+        
+        'subsample': {
+            'distribution':'uniform',
+            'min':0,
+            'max':1,            
+                },
+        
+        'colsample_bytree': {
+            'distribution':'uniform',
+            'min':0,
+            'max':1,            
+                },
+
     }
     sweep_config['parameters'] = parameters_dict
     sweep_id = wandb.sweep(sweep_config, project="stack")
-    wandb.agent(sweep_id, train, count=5)
+    wandb.agent(sweep_id, train, count=10)

@@ -1,0 +1,179 @@
+2022-11-26 22:53:13,530 INFO    Thread-39 :30623 [wandb_setup.py:_flush():68] Configure stats pid to 30623
+2022-11-26 22:53:13,530 INFO    Thread-39 :30623 [wandb_setup.py:_flush():68] Loading settings from /Users/home2/.config/wandb/settings
+2022-11-26 22:53:13,530 INFO    Thread-39 :30623 [wandb_setup.py:_flush():68] Loading settings from /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/settings
+2022-11-26 22:53:13,530 INFO    Thread-39 :30623 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'stack', 'entity': 'theothertom', 'root_dir': '/Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src', 'run_id': 'j0t9xjzk', 'sweep_param_path': '/Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/sweep-e3j6aatb/config-j0t9xjzk.yaml', 'sweep_id': 'e3j6aatb'}
+2022-11-26 22:53:13,530 INFO    Thread-39 :30623 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/train_wb.py', 'program': 'train_wb.py'}
+2022-11-26 22:53:13,530 INFO    Thread-39 :30623 [wandb_init.py:_log_setup():476] Logging user logs to /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221126_225313-j0t9xjzk/logs/debug.log
+2022-11-26 22:53:13,531 INFO    Thread-39 :30623 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221126_225313-j0t9xjzk/logs/debug-internal.log
+2022-11-26 22:53:13,531 INFO    Thread-39 :30623 [wandb_init.py:init():516] calling init triggers
+2022-11-26 22:53:13,531 INFO    Thread-39 :30623 [wandb_init.py:init():519] wandb.init called with sweep_config: {'booster': 'dart', 'colsample_bytree': 0.8814254558654495, 'grow_policy': 'lossguide', 'learning_rate': 1, 'max_depth': 15, 'max_leaves': 15, 'n_estimators': 50, 'reg_lambda': 0.46271724331772845, 'sampling_method': 'uniform', 'subsample': 0.9037701024175548}
+config: {}
+2022-11-26 22:53:13,531 INFO    Thread-39 :30623 [wandb_init.py:init():569] starting backend
+2022-11-26 22:53:13,531 INFO    Thread-39 :30623 [wandb_init.py:init():573] setting up manager
+2022-11-26 22:53:13,535 INFO    Thread-39 :30623 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-11-26 22:53:13,539 INFO    Thread-39 :30623 [wandb_init.py:init():580] backend started and connected
+2022-11-26 22:53:13,543 INFO    Thread-39 :30623 [wandb_run.py:_config_callback():1145] config_cb None None {'booster': 'dart', 'colsample_bytree': 0.8814254558654495, 'grow_policy': 'lossguide', 'learning_rate': 1, 'max_depth': 15, 'max_leaves': 15, 'n_estimators': 50, 'reg_lambda': 0.46271724331772845, 'sampling_method': 'uniform', 'subsample': 0.9037701024175548}
+2022-11-26 22:53:13,545 INFO    Thread-39 :30623 [wandb_init.py:init():658] updated telemetry
+2022-11-26 22:53:13,567 INFO    Thread-39 :30623 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-11-26 22:53:14,296 INFO    Thread-39 :30623 [wandb_run.py:_on_init():1974] communicating current version
+2022-11-26 22:53:14,500 INFO    Thread-39 :30623 [wandb_run.py:_on_init():1978] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-26 22:53:14,501 INFO    Thread-39 :30623 [wandb_init.py:init():727] starting run threads in backend
+2022-11-26 22:53:19,515 INFO    Thread-39 :30623 [wandb_run.py:_console_start():1954] atexit reg
+2022-11-26 22:53:19,515 INFO    Thread-39 :30623 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-11-26 22:53:19,515 INFO    Thread-39 :30623 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-11-26 22:53:19,516 INFO    Thread-39 :30623 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-11-26 22:53:19,516 INFO    Thread-39 :30623 [wandb_init.py:init():764] run started, returning control to user process
+2022-11-26 22:53:26,214 INFO    Thread-39 :30623 [wandb_run.py:_finish():1720] finishing run theothertom/stack/j0t9xjzk
+2022-11-26 22:53:26,214 INFO    Thread-39 :30623 [wandb_run.py:_atexit_cleanup():1923] got exitcode: 0
+2022-11-26 22:53:26,215 INFO    Thread-39 :30623 [wandb_run.py:_restore():1906] restore
+2022-11-26 22:53:26,215 INFO    Thread-39 :30623 [wandb_run.py:_restore():1912] restore done
+2022-11-26 22:53:27,973 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+}
+pusher_stats {
+}
+
+2022-11-26 22:53:28,405 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 775
+  total_bytes: 775
+}
+
+2022-11-26 22:53:29,979 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 775
+  total_bytes: 775
+}
+
+2022-11-26 22:53:30,368 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 775
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:30,471 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 775
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:30,575 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 775
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:30,682 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 775
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:30,787 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 10237
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:30,892 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:30,997 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:31,103 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:31,208 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:31,315 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:31,422 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:31,526 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:31,633 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:32,029 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+
+2022-11-26 22:53:32,784 INFO    Thread-39 :30623 [wandb_run.py:_on_finish():2224] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 18001
+  total_bytes: 18001
+}
+local_info {
+}
+
+2022-11-26 22:53:33,894 INFO    Thread-39 :30623 [wandb_run.py:_footer_history_summary_info():3321] rendering history
+2022-11-26 22:53:33,894 INFO    Thread-39 :30623 [wandb_run.py:_footer_history_summary_info():3353] rendering summary
+2022-11-26 22:53:33,896 INFO    Thread-39 :30623 [wandb_run.py:_footer_sync_info():3277] logging synced files

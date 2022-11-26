@@ -1,0 +1,63 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.3
+    framework: xgboost
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    python_version: 3.8.13
+    start_time: 1669499333.659265
+    t:
+      1:
+      - 5
+      - 6
+      - 35
+      - 53
+      - 55
+      2:
+      - 5
+      - 6
+      - 35
+      - 53
+      - 55
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.8.13
+      5: 0.13.3
+      8:
+      - 2
+      - 5
+booster:
+  desc: null
+  value: dart
+colsample_bytree:
+  desc: null
+  value: 0.8194911452846778
+grow_policy:
+  desc: null
+  value: depthwise
+learning_rate:
+  desc: null
+  value: 1
+max_depth:
+  desc: null
+  value: 12
+max_leaves:
+  desc: null
+  value: 15
+n_estimators:
+  desc: null
+  value: 62
+reg_lambda:
+  desc: null
+  value: 24
+sampling_method:
+  desc: null
+  value: uniform
+subsample:
+  desc: null
+  value: 0.09104898939379036

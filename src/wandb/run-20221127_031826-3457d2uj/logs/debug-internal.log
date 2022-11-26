@@ -1,0 +1,174 @@
+2022-11-27 03:18:26,954 INFO    StreamThr :50766 [internal.py:wandb_internal():88] W&B internal server running at pid: 50766, started at: 2022-11-27 03:18:26.953223
+2022-11-27 03:18:26,962 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: status
+2022-11-27 03:18:26,963 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: status
+2022-11-27 03:18:26,964 DEBUG   SenderThread:50766 [sender.py:send():301] send: header
+2022-11-27 03:18:26,964 INFO    WriterThread:50766 [datastore.py:open_for_write():75] open: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/run-3457d2uj.wandb
+2022-11-27 03:18:26,972 DEBUG   SenderThread:50766 [sender.py:send():301] send: run
+2022-11-27 03:18:27,678 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: check_version
+2022-11-27 03:18:27,686 INFO    SenderThread:50766 [dir_watcher.py:__init__():216] watching files in: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files
+2022-11-27 03:18:27,686 INFO    SenderThread:50766 [sender.py:_start_run_threads():912] run started: 3457d2uj with start time 1669499306.933577
+2022-11-27 03:18:27,686 DEBUG   SenderThread:50766 [sender.py:send():301] send: summary
+2022-11-27 03:18:27,686 INFO    SenderThread:50766 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-11-27 03:18:27,687 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: check_version
+2022-11-27 03:18:27,843 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: run_start
+2022-11-27 03:18:27,845 DEBUG   HandlerThread:50766 [meta.py:__init__():34] meta init
+2022-11-27 03:18:27,845 DEBUG   HandlerThread:50766 [meta.py:__init__():49] meta init done
+2022-11-27 03:18:27,846 DEBUG   HandlerThread:50766 [meta.py:probe():215] probe
+2022-11-27 03:18:27,847 DEBUG   HandlerThread:50766 [meta.py:_setup_git():205] setup git
+2022-11-27 03:18:27,877 DEBUG   HandlerThread:50766 [meta.py:_setup_git():212] setup git done
+2022-11-27 03:18:27,878 DEBUG   HandlerThread:50766 [meta.py:_save_pip():53] save pip
+2022-11-27 03:18:27,879 DEBUG   HandlerThread:50766 [meta.py:_save_pip():67] save pip done
+2022-11-27 03:18:27,879 DEBUG   HandlerThread:50766 [meta.py:_save_conda():74] save conda
+2022-11-27 03:18:28,689 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/wandb-summary.json
+2022-11-27 03:18:28,689 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/requirements.txt
+2022-11-27 03:18:28,689 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/conda-environment.yaml
+2022-11-27 03:18:40,713 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/conda-environment.yaml
+2022-11-27 03:18:40,781 DEBUG   HandlerThread:50766 [meta.py:_save_conda():84] save conda done
+2022-11-27 03:18:40,781 DEBUG   HandlerThread:50766 [meta.py:probe():253] probe done
+2022-11-27 03:18:40,893 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 03:18:40,893 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 03:18:40,896 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-27 03:18:40,898 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:40,898 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:41,225 DEBUG   SenderThread:50766 [sender.py:send():301] send: telemetry
+2022-11-27 03:18:41,226 DEBUG   SenderThread:50766 [sender.py:send():301] send: history
+2022-11-27 03:18:41,227 DEBUG   SenderThread:50766 [sender.py:send():301] send: summary
+2022-11-27 03:18:41,235 INFO    SenderThread:50766 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-11-27 03:18:41,236 DEBUG   SenderThread:50766 [sender.py:send():301] send: telemetry
+2022-11-27 03:18:41,236 DEBUG   SenderThread:50766 [sender.py:send():301] send: exit
+2022-11-27 03:18:41,236 INFO    SenderThread:50766 [sender.py:send_exit():437] handling exit code: 0
+2022-11-27 03:18:41,236 INFO    SenderThread:50766 [sender.py:send_exit():439] handling runtime: 13
+2022-11-27 03:18:41,236 INFO    SenderThread:50766 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-11-27 03:18:41,236 INFO    SenderThread:50766 [sender.py:send_exit():445] send defer
+2022-11-27 03:18:41,237 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:41,237 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:41,237 DEBUG   SenderThread:50766 [sender.py:send():301] send: files
+2022-11-27 03:18:41,237 INFO    SenderThread:50766 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-11-27 03:18:41,239 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:41,239 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 0
+2022-11-27 03:18:41,239 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:41,239 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-11-27 03:18:41,239 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 1
+2022-11-27 03:18:41,240 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:41,240 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 1
+2022-11-27 03:18:41,247 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:41,247 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-11-27 03:18:41,247 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 2
+2022-11-27 03:18:41,248 DEBUG   SenderThread:50766 [sender.py:send():301] send: stats
+2022-11-27 03:18:41,248 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:41,248 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 2
+2022-11-27 03:18:41,248 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:41,248 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-11-27 03:18:41,248 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 3
+2022-11-27 03:18:41,248 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:41,248 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 3
+2022-11-27 03:18:41,248 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:41,248 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-11-27 03:18:41,248 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 4
+2022-11-27 03:18:41,249 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:41,249 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 4
+2022-11-27 03:18:41,249 DEBUG   SenderThread:50766 [sender.py:send():301] send: summary
+2022-11-27 03:18:41,249 INFO    SenderThread:50766 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-11-27 03:18:41,249 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:41,249 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-11-27 03:18:41,249 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 5
+2022-11-27 03:18:41,250 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:41,250 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 5
+2022-11-27 03:18:41,250 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:41,250 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-11-27 03:18:41,342 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:41,630 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 6
+2022-11-27 03:18:41,631 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:41,631 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:41,631 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 6
+2022-11-27 03:18:41,632 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:41,632 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-11-27 03:18:41,718 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/wandb-summary.json
+2022-11-27 03:18:41,718 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/config.yaml
+2022-11-27 03:18:41,718 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/output.log
+2022-11-27 03:18:41,718 INFO    Thread-13 :50766 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/wandb-metadata.json
+2022-11-27 03:18:41,740 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:42,280 INFO    Thread-17 :50766 [upload_job.py:push():139] Uploaded file /var/folders/th/m78zdlwx5fb59574g4xwz9p40000gp/T/tmp0xhppq8ewandb/26o26rgs-wandb-metadata.json
+2022-11-27 03:18:43,243 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 7
+2022-11-27 03:18:43,243 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:43,244 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:43,244 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 7
+2022-11-27 03:18:43,244 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:43,244 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-11-27 03:18:43,244 INFO    SenderThread:50766 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-27 03:18:43,349 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:43,728 INFO    SenderThread:50766 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/output.log
+2022-11-27 03:18:43,728 INFO    SenderThread:50766 [dir_watcher.py:finish():392] scan: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files
+2022-11-27 03:18:43,728 INFO    SenderThread:50766 [dir_watcher.py:finish():406] scan save: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/requirements.txt requirements.txt
+2022-11-27 03:18:43,728 INFO    SenderThread:50766 [dir_watcher.py:finish():406] scan save: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/output.log output.log
+2022-11-27 03:18:43,731 INFO    SenderThread:50766 [dir_watcher.py:finish():406] scan save: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/config.yaml config.yaml
+2022-11-27 03:18:43,731 INFO    SenderThread:50766 [dir_watcher.py:finish():406] scan save: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/wandb-summary.json wandb-summary.json
+2022-11-27 03:18:43,731 INFO    SenderThread:50766 [dir_watcher.py:finish():406] scan save: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/conda-environment.yaml conda-environment.yaml
+2022-11-27 03:18:43,733 INFO    SenderThread:50766 [dir_watcher.py:finish():406] scan save: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/wandb-metadata.json wandb-metadata.json
+2022-11-27 03:18:43,733 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 8
+2022-11-27 03:18:43,733 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:43,734 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:43,734 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 8
+2022-11-27 03:18:43,736 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:43,737 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-11-27 03:18:43,737 INFO    SenderThread:50766 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-27 03:18:43,842 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:43,843 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:43,946 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:43,946 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,050 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,051 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,152 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,152 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,254 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,254 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,359 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,359 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,463 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,463 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,568 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,568 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,672 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,672 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,743 INFO    Thread-18 :50766 [upload_job.py:push():139] Uploaded file /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/requirements.txt
+2022-11-27 03:18:44,750 INFO    Thread-20 :50766 [upload_job.py:push():139] Uploaded file /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/config.yaml
+2022-11-27 03:18:44,777 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,777 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,799 INFO    Thread-19 :50766 [upload_job.py:push():139] Uploaded file /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/output.log
+2022-11-27 03:18:44,810 INFO    Thread-22 :50766 [upload_job.py:push():139] Uploaded file /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/conda-environment.yaml
+2022-11-27 03:18:44,846 INFO    Thread-21 :50766 [upload_job.py:push():139] Uploaded file /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/files/wandb-summary.json
+2022-11-27 03:18:44,881 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,881 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:44,986 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:44,986 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:45,049 INFO    Thread-12 :50766 [sender.py:transition_state():458] send defer: 9
+2022-11-27 03:18:45,049 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:45,049 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 9
+2022-11-27 03:18:45,050 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:45,050 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 9
+2022-11-27 03:18:45,090 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:45,336 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 10
+2022-11-27 03:18:45,337 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:45,337 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:45,337 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 10
+2022-11-27 03:18:45,338 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:45,338 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 10
+2022-11-27 03:18:45,338 INFO    SenderThread:50766 [sender.py:transition_state():458] send defer: 11
+2022-11-27 03:18:45,338 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: defer
+2022-11-27 03:18:45,338 INFO    HandlerThread:50766 [handler.py:handle_request_defer():161] handle defer: 11
+2022-11-27 03:18:45,338 DEBUG   SenderThread:50766 [sender.py:send():301] send: final
+2022-11-27 03:18:45,339 DEBUG   SenderThread:50766 [sender.py:send():301] send: footer
+2022-11-27 03:18:45,339 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: defer
+2022-11-27 03:18:45,339 INFO    SenderThread:50766 [sender.py:send_request_defer():454] handle sender defer: 11
+2022-11-27 03:18:45,443 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-27 03:18:45,443 DEBUG   SenderThread:50766 [sender.py:send_request():315] send_request: poll_exit
+2022-11-27 03:18:45,443 INFO    SenderThread:50766 [file_pusher.py:join():173] waiting for file pusher
+2022-11-27 03:18:46,170 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: sampled_history
+2022-11-27 03:18:46,171 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: get_summary
+2022-11-27 03:18:46,172 DEBUG   HandlerThread:50766 [handler.py:handle_request():138] handle_request: shutdown
+2022-11-27 03:18:46,172 INFO    HandlerThread:50766 [handler.py:finish():807] shutting down handler
+2022-11-27 03:18:46,343 INFO    WriterThread:50766 [datastore.py:close():279] close: /Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification/src/wandb/run-20221127_031826-3457d2uj/run-3457d2uj.wandb
+2022-11-27 03:18:47,069 INFO    SenderThread:50766 [sender.py:finish():1315] shutting down sender
+2022-11-27 03:18:47,069 INFO    SenderThread:50766 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-27 03:18:47,069 INFO    SenderThread:50766 [file_pusher.py:join():173] waiting for file pusher
+2022-11-27 03:18:51,079 INFO    MainThread:50766 [internal.py:handle_exit():78] Internal process exited

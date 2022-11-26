@@ -1,0 +1,22 @@
+wandb_version: 1
+
+booster:
+  value: gblinear
+colsample_bytree:
+  value: 0.015821678683817675
+grow_policy:
+  value: lossguide
+learning_rate:
+  value: 1
+max_depth:
+  value: 15
+max_leaves:
+  value: 12
+n_estimators:
+  value: 50
+reg_lambda:
+  value: 2.4943719365712855
+sampling_method:
+  value: uniform
+subsample:
+  value: 0.6111846898691214

@@ -93,7 +93,7 @@ if __name__ == "__main__":
           values={values}
           params={params}
           """)
-    pickle.dump(params, open("../model_params/xgb", 'wb'))
+    # pickle.dump(params, open("../model_params/xgb", 'wb'))
 
 
 

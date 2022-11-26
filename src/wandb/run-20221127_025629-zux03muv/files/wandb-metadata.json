@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.14.6-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-11-26T21:26:30.179026",
+    "startedAt": "2022-11-26T21:26:29.256331",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train_wb.py",
+    "codePath": "src/train_wb.py",
+    "git": {
+        "remote": "git@github.com:blessontomjoseph/fraud_transaction_classification.git",
+        "commit": "1320ea722698a81ef098df593f63b496a8d966a7"
+    },
+    "email": "57592961+blessontomjoseph@users.noreply.github.com",
+    "root": "/Users/home2/Documents/PROJECTS/fraud_stack2/fraud_transaction_classification",
+    "host": "iMac.local",
+    "username": "home2",
+    "executable": "/Users/home2/.conda/envs/py38/bin/python"
+}

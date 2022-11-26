@@ -1,0 +1,22 @@
+wandb_version: 1
+
+booster:
+  value: gbtree
+colsample_bytree:
+  value: 0.7367298496212117
+grow_policy:
+  value: depthwise
+learning_rate:
+  value: 1
+max_depth:
+  value: 15
+max_leaves:
+  value: 6
+n_estimators:
+  value: 97
+reg_lambda:
+  value: 2.4812802309501563
+sampling_method:
+  value: uniform
+subsample:
+  value: 0.15421937049695245

@@ -1,0 +1,22 @@
+wandb_version: 1
+
+booster:
+  value: dart
+colsample_bytree:
+  value: 0.8194911452846778
+grow_policy:
+  value: depthwise
+learning_rate:
+  value: 1
+max_depth:
+  value: 12
+max_leaves:
+  value: 15
+n_estimators:
+  value: 62
+reg_lambda:
+  value: 24
+sampling_method:
+  value: uniform
+subsample:
+  value: 0.09104898939379036
