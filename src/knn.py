@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.svm import SVC
 from sklearn import metrics
 import optuna
-from config import config as conf
+import config
 import numpy as np
 import pickle
 from sklearn import linear_model
@@ -32,14 +32,14 @@ def objective(trial):
             }
     
     scores=[]
-    for fold in range(conf.num_folds):
+    for fold in range(config.config.num_folds):
         recall_score=train_fold(fold,params_knn)
         scores.append(recall_score)
     return np.mean(scores)
   
 def optimize(objective):
     study=optuna.create_study(directions=['maximize'])
-    study.optimize(objective,conf.n_trials_knn)
+    study.optimize(objective,config.config.n_trials_knn)
     best_trial=study.best_trial
     return best_trial.values,best_trial.params
 
@@ -49,7 +49,13 @@ if __name__=="__main__":
           score:{best_score}
           params:{best_params}
           """)
-    pickle.dump(best_params,open("../model_params/knn.p",'wb'))    
-        
     
+    performance=pickle.load(open("../model_params/performance.p",'rb'))
+    if best_score > performance['knn']['recall']:
+        performance['knn']={'recall':best_score}
+        pickle.dump(performance,open("../model_params/performance.p",'wb'))
+        pickle.dump(best_params,open("../model_params/knn.p",'wb'))  
+      
+        
+     
         

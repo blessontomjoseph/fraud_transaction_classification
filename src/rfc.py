@@ -45,5 +45,9 @@ if __name__ == '__main__':
           score={best_score}
           params={best_params}
           """)
-    pickle.dump(best_params,open("../model_params/rfc.p",'wb'))
+    performance=pickle.load(open("../model_params/performance.p",'rb'))
+    if best_score > performance['rfc']['recall']:
+        performance['rfc']={'recall':best_score}
+        pickle.dump(performance,open("../model_params/performance.p",'wb'))
+        pickle.dump(best_params,open("../model_params/rfc.p",'wb'))
     

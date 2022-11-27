@@ -42,14 +42,15 @@ models=[lr,svm,rfc]
 names=['lr_preds','svm_preds','rfc_preds']
 pre_funcs=[[utils.preprocess],None,None]
 pred_folds=train(models,names,pre_funcs)
-        
+pred_folds['mean_preds'] = pred_folds[[
+    'lr_preds', 'svm_preds', 'rfc_preds']].mean(axis=1)
 
 def train_fold(fold, hyper_params):
     folds=pred_folds.copy()
     train_df = folds[folds['fold'] != fold].reset_index(drop=True)
     val_df = folds[folds['fold'] == fold].reset_index(drop=True)
-    trainx, trainy = train_df[['lr_preds', 'svm_preds','rfc_preds']], train_df['isfraud']
-    valx, valy = val_df[['lr_preds', 'svm_preds','rfc_preds']], val_df['isfraud']
+    trainx, trainy = train_df[['lr_preds', 'svm_preds','rfc_preds','mean_preds']], train_df['isfraud']
+    valx, valy = val_df[['lr_preds', 'svm_preds','rfc_preds','mean_preds']], val_df['isfraud']
 
     model=xgboost.XGBClassifier(**hyper_params)
     model.fit(trainx, trainy)
@@ -93,7 +94,11 @@ if __name__ == "__main__":
           values={values}
           params={params}
           """)
-    # pickle.dump(params, open("../model_params/xgb", 'wb'))
+    performance = pickle.load(open("../model_params/performance.p", 'rb'))
+    if  values> performance['xgb']['recall']:
+        performance['xgb'] = {'recall': values}
+        pickle.dump(performance, open("../model_params/performance.p", 'wb'))
+        pickle.dump(params, open("../model_params/xgb", 'wb'))
 
 
 

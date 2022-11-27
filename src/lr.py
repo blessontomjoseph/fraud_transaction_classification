@@ -44,4 +44,9 @@ def optimize(objective):
 if __name__=="__main__":
     values,params=optimize(objective=objective)
     print(f"values={values},params={params}")
-    pickle.dump(params,open("../model_params/lr.p",'wb'))
+    
+    performance=pickle.load(open("../model_params/performance.p",'rb'))
+    if values > performance['lr']['recall']:
+        performance['lr']={'recall':values}
+        pickle.dump(performance,open("../model_params/performance.p",'wb'))
+        pickle.dump(params,open("../model_params/lr.p",'wb'))
