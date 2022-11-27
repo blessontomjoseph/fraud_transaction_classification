@@ -1,10 +1,12 @@
-# fraud_transaction_classification
+# Fraud Transaction Classification
 
+Model classifies transactions into fraud and not fraud
 
-this is a stacked model
-logisatic regression
-k nearest neighbors
-random forest classifier are stacked
-cgboost classifier used on top of the stacked model
+Implemented by stacking :
+- Logisatic regression
+- K nearest neighbors
+- Random forest classifier 
 
-[ss](files/d1.jpg)
+an xgboost classifier used on top of the stacked model
+
+![dd](files/d1.jpg)
