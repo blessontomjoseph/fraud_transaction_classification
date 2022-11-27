@@ -51,10 +51,9 @@ if __name__=="__main__":
           """)
     
     performance=pickle.load(open("../model_params/performance.p",'rb'))
-    if best_score > performance['knn']['recall']:
-        performance['knn']={'recall':best_score}
-        pickle.dump(performance,open("../model_params/performance.p",'wb'))
-        pickle.dump(best_params,open("../model_params/knn.p",'wb'))  
+    performance['knn']={'recall':best_score}
+    pickle.dump(performance,open("../model_params/performance.p",'wb'))
+    pickle.dump(best_params,open("../model_params/knn.p",'wb'))  
       
         
      
